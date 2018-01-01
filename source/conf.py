@@ -16,9 +16,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- General configuration ------------------------------------------------
@@ -41,10 +41,14 @@ templates_path = ['_templates']
 # source_suffix = ['.rst', '.md']
 source_suffix = ['.rst', '.md']
 
-source_parsers = {
-   '.md': 'recommonmark.parser.CommonMarkParser',
-}
+sys.path.insert(0, os.path.abspath('..'))
+import recommonmark
+from recommonmark.parser import CommonMarkParser
+from recommonmark.transform import AutoStructify
 
+source_parsers = {
+    '.md': CommonMarkParser
+}
 # The master toctree document.
 master_doc = 'index'
 
@@ -88,6 +92,22 @@ todo_include_todos = False
 #
 html_theme = "sphinx_rtd_theme"
 html_theme_path = ["_themes", ]
+
+html_theme_options = {
+    'canonical_url': 'http://docs.plasmaticrnd.ru/',
+    'logo_only': True,
+    'display_version': False,
+    'style_external_links': True,
+    # Toc options
+    'collapse_navigation': False,
+    'sticky_navigation': False,
+    'navigation_depth': 3,
+    'includehidden': True,
+    'titles_only': False
+}
+
+#html_theme = "alabaster"
+
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -168,6 +188,4 @@ texinfo_documents = [
      author, 'Plasmatic', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-
 
