@@ -1,4 +1,5 @@
-.. main-features-label:
+.. _mainfeatures:
+
 Основные возможности
 ====================
 

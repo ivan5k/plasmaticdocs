@@ -94,7 +94,6 @@ html_theme = "sphinx_rtd_theme"
 html_theme_path = ["_themes", ]
 
 html_theme_options = {
-    'canonical_url': 'http://docs.plasmaticrnd.ru/',
     'logo_only': True,
     'display_version': False,
     'style_external_links': True,
