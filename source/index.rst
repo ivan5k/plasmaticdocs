@@ -3,6 +3,7 @@
    :glob:
 
    intro/*
+   userguide/*
 
 Plasmatic RND
 ==============
