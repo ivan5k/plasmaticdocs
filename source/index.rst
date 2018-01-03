@@ -49,3 +49,5 @@ Kjellberg, Спектр+, ПУРМ и др.
    :glob:
 
    userguide/*
+
+   manual/*
