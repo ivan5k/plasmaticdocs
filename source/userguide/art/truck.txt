@@ -1,4 +1,7 @@
-(Generated with: DXF2GCODE, Version: Py3.4.4 PyQt5.4.1, Date: $Date: Sun Apr 17 16:32:22 2016 +0200 $)(Created from file: C:/WorkData/Firmware/Plasmatic/Archive/PrecisionLayout/Samples/_dxf2gcode/24.DXF)(Time: Mon Feb 27 04:02:46 2017)G21 G91 G21
+(Generated with: DXF2GCODE, Version: Py3.4.4 PyQt5.4.1, Date: $Date: Sun Apr 17 16:32:22 2016 +0200 $)
+(Created from file: C:/WorkData/Firmware/Plasmatic/Archive/PrecisionLayout/Samples/_dxf2gcode/24.DXF)
+(Time: Mon Feb 27 04:02:46 2017)
+G21 G91 G21
 G91
 G00 X34.6 Y19.8
 M07
