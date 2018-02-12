@@ -92,19 +92,19 @@ todo_include_todos = False
 # a list of builtin themes.
 #
 
-#html_theme = "sphinx_rtd_theme"
-#html_theme_path = ["_themes", ]
+html_theme = "sphinx_rtd_theme"
+html_theme_path = ["_themes", ]
 html_theme_options = {
-     'logo_only': True,
+'logo_only': True,
      'display_version': False,
      'style_external_links': True,
      'prev_next_buttons_location': 'None',
-     # Toc options
-     'collapse_navigation': False,
-     'sticky_navigation': False,
-     'navigation_depth': 3,
-     'includehidden': True,
-     'titles_only': False
+    
+    'collapse_navigation': False,
+    'sticky_navigation': False,
+    'navigation_depth': 3,
+    'includehidden': True,
+    'titles_only': False
 }
 
 
