@@ -40,6 +40,11 @@
 
 Видеоинструкция по преобразованию файлов DXF в G-код доступна на Youtube: https://www.youtube.com/watch?v=CdwV18siNWo&t=64s
 
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CdwV18siNWo?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 Полезные файлы
 ^^^^^^^^^^^^^^
 
