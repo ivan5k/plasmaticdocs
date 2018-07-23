@@ -19,9 +19,11 @@
    * - Графический адаптер
      - + Встроенное видеоядро процессора с поддержкой ``OpenGL 4.1``. Для процессоров Intel см. `таблицу совместимости 
          <https://www.intel.com/content/www/us/en/support/articles/000005524/graphics-drivers.html/>`_.
-       + Отдельная видеокарта с поддержкой ``OpenGL 4.1``
+       + Либо отдельная видеокарта с поддержкой ``OpenGL 4.1``
    * - Операционная система 
      - Windows 7 SP1, 8.1, 10. Среда исполнения Microsoft .NET Framework 4.7.
+   * - База данных (опционально)
+     - Microsoft SQL Server LocalDB 2017 (https://www.microsoft.com/en-us/sql-server/sql-server-editions-express) 
    * - Экран
      - Диагональ не менее 15'', соотношение сторон любое. Возможна поддержка сенсорных панелей.
 
