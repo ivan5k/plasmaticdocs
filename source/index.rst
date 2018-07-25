@@ -36,8 +36,6 @@ Kjellberg, Спектр+, Plasmatic и др.
 
    manual/install
 
-   manual/thc
-
    userguide/userguide
    
    programmingmanual/*
