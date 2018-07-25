@@ -32,10 +32,16 @@ Kjellberg, Спектр+, Plasmatic и др.
    :maxdepth: 3
    :glob:
 
-   userguide/*
+   manual/intro
 
-   manual/*
+   manual/install
+
+   manual/thc
+
+   userguide/userguide
    
    programmingmanual/*
 
+   userguide/dxf2gcode
 
+   manual/warranty
