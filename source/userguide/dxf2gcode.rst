@@ -10,6 +10,26 @@
 
 Далее показано, как при помощи программы dxf2gcode импортировать чертеж из формата DXF в G-код.
 
+Установка постпроцесора Plasmatic для dxf2gcode
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Для установки постпроцесора Plasmatic для dxf2gcode в Windows 10 необходимо:
+
+* Скачать файл постпроцессора Plasmatic.cfg 
+* Скопировать файл Plasmatic.cfg в папку %USERPROFILE%\.config\dxf2gcode\postpro_config (скопируйте путь к папке отсюда и вставьте в строке пути проводника, как показано на рисунке ниже)
+    .. image:: art/save_postprocessor_file.png
+        :alt: Скопировать файл Plasmatic.cfg
+        :align: left
+* Запустить dxf2gcode
+* Выбрать пункт меню "Options", затем "Postprocessor configuration"
+    .. image:: art/open_postprocessor_configuration.png
+        :alt: Выбрать пункт меню "Options", затем "Postprocessor configuration"
+        :align: left
+* В окне настроек постпроцессора, выберать файл Plasmatic.cfg и нажать "Close"
+    .. image:: art/postprocessor_configuration.png
+        :alt: В окне настроек постпроцессора, выберать файл Plasmatic.cfg и нажать Close
+        :align: left
+
+
 Последовательность работы с dxf2gcode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
