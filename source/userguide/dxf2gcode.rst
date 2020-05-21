@@ -14,19 +14,19 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Для установки постпроцесора Precision Layout для dxf2gcode в Windows 10 необходимо:
 
-* Скачать файл постпроцессора Plasmatic.cfg 
-* Скопировать файл Plasmatic.cfg в папку %USERPROFILE%\.config\dxf2gcode\postpro_config (скопируйте путь к папке отсюда и вставьте в строке пути проводника, как показано на рисунке ниже)
+* Скачать файл постпроцессора PrecisionLayout.cfg 
+* Скопировать файл PrecisionLayout.cfg в папку %USERPROFILE%\.config\dxf2gcode\postpro_config (скопируйте путь к папке отсюда и вставьте в строке пути проводника, как показано на рисунке ниже)
     .. image:: art/save_postprocessor_file.png
-        :alt: Скопировать файл Plasmatic.cfg
+        :alt: Скопировать файл PrecisionLayout.cfg
         :align: left
 * Запустить dxf2gcode
 * Выбрать пункт меню "Options", затем "Postprocessor configuration"
     .. image:: art/open_postprocessor_configuration.png
         :alt: Выбрать пункт меню "Options", затем "Postprocessor configuration"
         :align: left
-* В окне настроек постпроцессора, выберать файл Plasmatic.cfg и нажать "Close"
+* В окне настроек постпроцессора, выберать файл PrecisionLayout.cfg и нажать "Close"
     .. image:: art/postprocessor_configuration.png
-        :alt: В окне настроек постпроцессора, выберать файл Plasmatic.cfg и нажать Close
+        :alt: В окне настроек постпроцессора, выберать файл PrecisionLayout.cfg и нажать Close
         :align: left
 
 
@@ -68,7 +68,7 @@
 Полезные файлы
 ^^^^^^^^^^^^^^
 
-:download:`Plasmatic.cfg - постпроцессор для dxf2gcode, настроенный для ЧПУ <art/Plasmatic.cfg>`.
+:download:`PrecisionLayout.cfg - постпроцессор для dxf2gcode, настроенный для ЧПУ <art/PrecisionLayout.cfg>`.
 
 :download:`Truck.dxf - чертеж из примера <art/truck.dxf>`.
 

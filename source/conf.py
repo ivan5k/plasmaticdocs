@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# ??? Plasmatic documentation build configuration file, created by
+# Precision Layout documentation build configuration file, created by
 # sphinx-quickstart on Mon Jan 01 12:53:12 2018.
 #
 # This file is execfile()d with the current directory set to its
@@ -54,9 +54,9 @@ templates_path = ['_templates']
 master_doc = 'index'
 
 # General information about the project.
-project = u'ЧПУ Plasmatic'
-copyright = u'2018, Plasmatic'
-author = u'Plasmatic'
+project = u'ЧПУ Precision Layout'
+copyright = u'2020, KUBO Technologies'
+author = u'KUBO Technologies'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -137,7 +137,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Plasmaticdoc'
+htmlhelp_basename = 'plcdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -164,8 +164,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Plasmatic.tex', u'ЧПУ - Документация',
-     u'Plasmatic', 'manual'),
+    (master_doc, 'plc.tex', u'ЧПУ - Документация',
+     u'PLC', 'manual'),
 ]
 
 
@@ -174,7 +174,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'plasmatic', u'ЧПУ - Документация',
+    (master_doc, 'plc', u'ЧПУ - Документация',
      [author], 1)
 ]
 
@@ -185,8 +185,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Plasmatic', u'ЧПУ - Документация',
-     author, 'Plasmatic', 'One line description of project.',
+    (master_doc, 'plc', u'ЧПУ - Документация',
+     author, 'plc', 'One line description of project.',
      'Miscellaneous'),
 ]
 

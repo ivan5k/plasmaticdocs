@@ -12,4 +12,4 @@ To install:
 - pip install sphinx
 - pip install recommonmark
 
-Copyright (c) Plasmatic, 2009-2018
+Copyright (c) KUBO Technologies, 2009-2018
