@@ -23,7 +23,7 @@
 * Поддержка CAM-системами Техтран (Россия), PractiCAM (США), CAMduct (США), dxf2gcode (бесплатная)  и др.
 
 .. NOTE:: 
-   Бесплатная система dxf2gcode позволяет транслировать DXF-файлы в G-code и полностью совместима с ЧПУ Plasmatic Precision Layout.
+   Бесплатная система dxf2gcode позволяет транслировать DXF-файлы в G-code и полностью совместима с ЧПУ Precision Layout.
    https://sourceforge.net/projects/dxf2gcode/
 
 Режимы движения
